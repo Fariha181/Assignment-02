@@ -19,8 +19,8 @@ body{
 }
 .body1{
     position: relative;
-    width: 1440px;
-    height: 715px;
+    width: 1550px;
+    height: 750px;
     margin: 65px 0 0 0;
     background: linear-gradient(180deg, #111111, rgba(119, 119, 119, 0));
     overflow: hidden;
@@ -67,6 +67,8 @@ nav ul{
     border-radius: 120px;
     list-style: none;
     padding: 0;
+    position: relative;
+    left: 400px;
 }
 nav ul li{
     list-style: none; 
@@ -91,6 +93,8 @@ nav li a{
 }
 .banner-profile-pic{
     width: 400px;
+    position: relative;
+    left: -90px;
 }
 .shape {
     position: relative;
@@ -128,7 +132,7 @@ nav li a{
     position: absolute;
     width: 193px;
     height: 98px;
-    top: -490px;
+    top: -470px;
     left: 1100px;
     font-size: 0px;
     background: rgba(255, 255, 255, 0.1);
@@ -178,7 +182,7 @@ nav li a{
     position: absolute;
     width: 206px;
     height: 96px;
-    top: -200px;
+    top: -150px;
     left: 700px;
     background: rgba(48, 48, 48, 0.54);
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -602,7 +606,7 @@ nav li a{
     letter-spacing: 0.3px;
     z-index: 27;
   }
-  .main-container {
+  .container1 {
     overflow: hidden;
   }
   .container1 {
@@ -628,6 +632,8 @@ nav li a{
     flex-wrap: nowrap;
     gap: 88px;
     position: relative;
+    top: 500px;
+    left: -900px;
     width: 1440px;
     margin: 0 auto;
   }
@@ -637,9 +643,10 @@ nav li a{
     align-items: flex-start;
     flex-wrap: nowrap;
     flex-shrink: 0;
-    gap: 58px;
+    gap: 60px;
     position: relative;
-    width: 1060px;
+    width: 1050px;
+    z-index: 75;
   }
   .frame-14 {
     display: flex;
@@ -647,10 +654,10 @@ nav li a{
     align-items: flex-start;
     flex-wrap: nowrap;
     flex-shrink: 0;
-    gap: 14px;
+    gap: 15px;
     position: relative;
-    width: 671px;
-    z-index: 1;
+    width: 670px;
+    z-index: 75;
   }
   .trainings-and-exercises {
     flex-shrink: 0;
@@ -660,10 +667,10 @@ nav li a{
     color: #ffffff;
     font-size: 48px;
     font-weight: 900;
-    line-height: 57.6px;
+    line-height: 60px;
     text-align: left;
     white-space: nowrap;
-    z-index: 2;
+    z-index: 75;
   }
   .fitness-accessible {
     display: flex;
@@ -671,24 +678,24 @@ nav li a{
     justify-content: flex-start;
     flex-shrink: 0;
     position: relative;
-    width: 671px;
+    width: 670px;
     height: 48px;
     color: rgba(255, 255, 255, 0.5);
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 25px;
     text-align: left;
     letter-spacing: 0.3px;
-    z-index: 3;
+    z-index: 75;
   }
   .frame-15 {
     align-self: stretch;
     flex-shrink: 0;
     position: relative;
     min-width: 0;
-    height: 403px;
+    height: 400px;
     background: #222222;
-    z-index: 4;
+    z-index: 80;
     overflow: hidden;
   }
   .frame-16 {
@@ -698,10 +705,10 @@ nav li a{
     flex-wrap: nowrap;
     position: absolute;
     width: 1060px;
-    height: 403px;
+    height: 400px;
     top: 0;
     left: 0;
-    z-index: 5;
+    z-index: 78;
   }
   .frame-17 {
     display: flex;
@@ -714,7 +721,7 @@ nav li a{
     position: relative;
     min-width: 0;
     min-height: 0;
-    z-index: 6;
+    z-index: 80;
   }
   .frame-18 {
     align-self: stretch;
@@ -723,7 +730,7 @@ nav li a{
     width: 250px;
     font-size: 0px;
     background: #ffffff;
-    z-index: 7;
+    z-index: 80;
     overflow: hidden;
   }
   .lorem-ipsum {
@@ -732,22 +739,22 @@ nav li a{
     height: 17px;
     margin: 157px 0 0 24px;
     color: #000000;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 500;
-    line-height: 16.943px;
+    line-height: 17px;
     text-align: left;
     white-space: nowrap;
-    z-index: 9;
+    z-index: 85;
   }
-  .image {
+  .image10 {
     position: absolute;
     width: 323px;
     height: 218px;
     top: 0;
     left: -16px;
-    background: rgba(5, 255, 210, 0.1);
+    background: rgba(5, 255, 210, 0.1) no repeat center;
     background-size: cover;
-    z-index: 8;
+    z-index: 80;
   }
   .frame-19 {
     align-self: stretch;
@@ -1712,7 +1719,7 @@ nav li a{
     gap: 20px;
     position: relative;
     min-width: 0;
-    z-index: 85;
+    z-index: 160;
   }
   .frame-31 {
     display: flex;
@@ -1740,7 +1747,7 @@ nav li a{
     flex-basis: 0;
     gap: 20px;
     position: relative;
-    z-index: 87;
+    z-index: 160;
   }
   .rectangle-7{
     align-self: stretch;
@@ -1864,14 +1871,14 @@ nav li a{
     z-index: 97;
     border-radius: 18px;
   }
-  .rectangle-8 {
+  .rectangle-8{
     align-self: stretch;
     flex-shrink: 0;
     position: relative;
     height: 272px;
     background: rgba(0, 0, 0, 0.04000000000000001);
     background-size: cover;
-    z-index: 98;
+    z-index: 97;
     border-radius: 18px;
   }
   .frame-33 {
@@ -2410,6 +2417,13 @@ nav li a{
     background-size: cover;
     z-index: 116;
   }
+  .horizontal-line{
+   border: 2px solid rgba(84, 83, 83, 0.5);
+   width: 70% ;
+   position: relative;
+   left: 200px;
+  }
+
   .all-rights-reserved {
     display: block;
     position: relative;
@@ -2423,4 +2437,16 @@ nav li a{
     white-space: nowrap;
     letter-spacing: 0.3px;
     z-index: 115;
+  }
+  nav ul .ham-burger{
+     display: none;
+  } 
+  @media screen and(max-width:600px){
+    nav ul.ham-burger{
+        display:none;
+    }
+    .ham-burger{
+        display: block;
+    }
+    
   }
